@@ -68,7 +68,7 @@ class MainActivity : AppCompatActivity() {
         }
     fun checkSettingOverlayWindow(intent: Intent?){
         if(Settings.canDrawOverlays(this)){
-            getMessage(intent)
+            getMessage(this.intent)
         }
         else
         {
